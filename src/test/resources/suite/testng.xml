@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="新联电子测试Demo" verbose="1">
+    <suite-files>
+        <suite-file path="module1-testng.xml"></suite-file>
+    </suite-files>
+    <suite-files>
+        <suite-file path="module2-testng.xml"></suite-file>
+    </suite-files>
+    <suite-files>
+        <suite-file path="auth-testng.xml"></suite-file>
+    </suite-files>
+
+</suite>

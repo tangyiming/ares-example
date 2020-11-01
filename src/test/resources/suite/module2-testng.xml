@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="模块2" parallel="none">
+    <test name="查询豆瓣用户信息">
+        <classes>
+            <class name="api.Demo2Test"/>
+        </classes>
+    </test>
+</suite>

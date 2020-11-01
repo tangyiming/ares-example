@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "loc_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "created": {
+      "type": "string"
+    },
+    "is_banned": {
+      "type": "boolean"
+    },
+    "is_suicide": {
+      "type": "boolean"
+    },
+    "loc_name": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "signature": {
+      "type": "string"
+    },
+    "uid": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "large_avatar": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "loc_id",
+    "name",
+    "created",
+    "is_banned",
+    "is_suicide",
+    "loc_name",
+    "avatar",
+    "signature",
+    "uid",
+    "alt",
+    "desc",
+    "type",
+    "id",
+    "large_avatar"
+  ]
+}

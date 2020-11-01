@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="模块1" parallel="none">
+    <test name="尝试redis接口">
+        <classes>
+            <class name="api.DemoTest"/>
+        </classes>
+    </test>
+</suite>
